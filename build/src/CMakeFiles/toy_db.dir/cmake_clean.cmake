@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/toy_db.dir/b_plus_tree.cpp.o"
+  "CMakeFiles/toy_db.dir/b_plus_tree.cpp.o.d"
+  "CMakeFiles/toy_db.dir/catalog.cpp.o"
+  "CMakeFiles/toy_db.dir/catalog.cpp.o.d"
+  "CMakeFiles/toy_db.dir/lock_manager.cpp.o"
+  "CMakeFiles/toy_db.dir/lock_manager.cpp.o.d"
+  "CMakeFiles/toy_db.dir/log_manager.cpp.o"
+  "CMakeFiles/toy_db.dir/log_manager.cpp.o.d"
+  "CMakeFiles/toy_db.dir/main.cpp.o"
+  "CMakeFiles/toy_db.dir/main.cpp.o.d"
+  "CMakeFiles/toy_db.dir/mvcc.cpp.o"
+  "CMakeFiles/toy_db.dir/mvcc.cpp.o.d"
+  "CMakeFiles/toy_db.dir/operators/aggregate_operator.cpp.o"
+  "CMakeFiles/toy_db.dir/operators/aggregate_operator.cpp.o.d"
+  "CMakeFiles/toy_db.dir/operators/filter_operator.cpp.o"
+  "CMakeFiles/toy_db.dir/operators/filter_operator.cpp.o.d"
+  "CMakeFiles/toy_db.dir/operators/join_operator.cpp.o"
+  "CMakeFiles/toy_db.dir/operators/join_operator.cpp.o.d"
+  "CMakeFiles/toy_db.dir/operators/limit_operator.cpp.o"
+  "CMakeFiles/toy_db.dir/operators/limit_operator.cpp.o.d"
+  "CMakeFiles/toy_db.dir/operators/project_operator.cpp.o"
+  "CMakeFiles/toy_db.dir/operators/project_operator.cpp.o.d"
+  "CMakeFiles/toy_db.dir/operators/query_executor.cpp.o"
+  "CMakeFiles/toy_db.dir/operators/query_executor.cpp.o.d"
+  "CMakeFiles/toy_db.dir/operators/sort_operator.cpp.o"
+  "CMakeFiles/toy_db.dir/operators/sort_operator.cpp.o.d"
+  "CMakeFiles/toy_db.dir/operators/table_scan_operator.cpp.o"
+  "CMakeFiles/toy_db.dir/operators/table_scan_operator.cpp.o.d"
+  "CMakeFiles/toy_db.dir/page_manager.cpp.o"
+  "CMakeFiles/toy_db.dir/page_manager.cpp.o.d"
+  "CMakeFiles/toy_db.dir/query_utils.cpp.o"
+  "CMakeFiles/toy_db.dir/query_utils.cpp.o.d"
+  "CMakeFiles/toy_db.dir/table.cpp.o"
+  "CMakeFiles/toy_db.dir/table.cpp.o.d"
+  "toy_db"
+  "toy_db.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/toy_db.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

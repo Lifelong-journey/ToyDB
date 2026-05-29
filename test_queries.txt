@@ -1,0 +1,43 @@
+-- Test CREATE TABLE
+CREATE TABLE students (id int4, name varchar(50), age int4);
+
+-- Test SHOW TABLES
+SHOW TABLES;
+
+-- Test INSERT
+INSERT INTO students VALUES (1, 'Alice', 20);
+INSERT INTO students VALUES (2, 'Bob', 21);
+INSERT INTO students VALUES (3, 'Charlie', 22);
+INSERT INTO students VALUES (4, 'David', 23);
+
+-- Test SELECT (all columns)
+SELECT * FROM students WHERE id = 1;
+
+-- Test SELECT (specific columns)
+SELECT name, age FROM students WHERE id = 2;
+
+-- Test SELECT (non-existent key)
+SELECT * FROM students WHERE id = 999;
+
+-- Test UPDATE
+UPDATE students SET name = 'Alice Updated' WHERE id = 1;
+SELECT * FROM students WHERE id = 1;
+
+-- Test DELETE
+DELETE FROM students WHERE id = 3;
+SELECT * FROM students WHERE id = 3;
+
+-- Test multiple inserts to trigger B+ tree split
+INSERT INTO students VALUES (5, 'Eve', 24);
+INSERT INTO students VALUES (6, 'Frank', 25);
+INSERT INTO students VALUES (7, 'Grace', 26);
+INSERT INTO students VALUES (8, 'Henry', 27);
+INSERT INTO students VALUES (9, 'Ivy', 28);
+INSERT INTO students VALUES (10, 'Jack', 29);
+
+-- Test SELECT after multiple inserts
+SELECT * FROM students WHERE id = 5;
+SELECT * FROM students WHERE id = 10;
+
+QUIT
+

@@ -1,0 +1,6 @@
+CREATE TABLE students (id int4, name varchar(50), age int4);
+SHOW TABLES;
+INSERT INTO students VALUES (1, 'Alice', 20);
+SELECT * FROM students WHERE id = 1;
+QUIT
+

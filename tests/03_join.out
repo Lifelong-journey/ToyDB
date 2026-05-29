@@ -1,0 +1,72 @@
+ToyDB - A Simple Database System
+Type 'QUIT' or 'EXIT' to exit.
+toydb> PageManager: Initialized with next_page_id: 1
+PageManager: Attempted to fetch non-existent page: 1
+toydb> toydb> toydb> Error: Empty parse tree.
+toydb> PageManager: Attempted to fetch non-existent page: 1
+PageManager: Allocated new page with ID: 1
+PageManager: Fetching page 1 from buffer.
+PageManager: Flushing page 1 to disk.
+Table 'courses_j' created successfully.
+toydb> toydb> Error: Table 'students_j' not found.
+toydb> Error: Table 'students_j' not found.
+toydb> Error: Table 'students_j' not found.
+toydb> toydb> Search: Searching for key: 1
+FindLeaf: Root page ID is INVALID, returning nullptr
+Search: Leaf not found for key: 1
+Delete: Deleting key: 1
+Delete: Tree is empty.
+Insert: Inserting key 1
+Insert: Root page ID is INVALID, creating new leaf root.
+PageManager: Allocated new page with ID: 2
+PageManager: Fetching page 2 from buffer.
+MarkDirty: Marking page 2 as dirty.
+PageManager: Fetching page 2 from buffer.
+PageManager: Flushing all dirty pages.
+PageManager: Fetching page 1 from buffer.
+PageManager: Flushing page 1 to disk.
+Inserted 1 row.
+toydb> Search: Searching for key: 2
+PageManager: Fetching page 2 from buffer.
+Search: Key 2 not found in leaf.
+Delete: Deleting key: 2
+PageManager: Fetching page 2 from buffer.
+Delete: Key 2 not found in leaf.
+Insert: Inserting key 2
+PageManager: Fetching page 2 from buffer.
+PageManager: Fetching page 2 from buffer.
+Insert: Found leaf for key 2, current keys: 1, page_id: 2
+Insert: Key 2 inserted into leaf. New keys size: 2, page_id: 2
+PageManager: Fetching page 2 from buffer.
+MarkDirty: Marking page 2 as dirty.
+PageManager: Fetching page 2 from buffer.
+PageManager: Flushing all dirty pages.
+PageManager: Fetching page 1 from buffer.
+PageManager: Flushing page 1 to disk.
+Inserted 1 row.
+toydb> Search: Searching for key: 3
+PageManager: Fetching page 2 from buffer.
+Search: Key 3 not found in leaf.
+Delete: Deleting key: 3
+PageManager: Fetching page 2 from buffer.
+Delete: Key 3 not found in leaf.
+Insert: Inserting key 3
+PageManager: Fetching page 2 from buffer.
+PageManager: Fetching page 2 from buffer.
+Insert: Found leaf for key 3, current keys: 2, page_id: 2
+Insert: Key 3 inserted into leaf. New keys size: 3, page_id: 2
+PageManager: Fetching page 2 from buffer.
+MarkDirty: Marking page 2 as dirty.
+PageManager: Fetching page 2 from buffer.
+PageManager: Flushing all dirty pages.
+PageManager: Fetching page 1 from buffer.
+PageManager: Flushing page 1 to disk.
+Inserted 1 row.
+toydb> toydb> toydb> Error: Empty parse tree.
+toydb> toydb> PageManager: Fetching page 1 from buffer.
+PageManager: Flushing page 1 to disk.
+PageManager: Flushing all dirty pages.
+Goodbye!
+BPlusTree: Destructor called.
+PageManager: Flushing all dirty pages.
+PageManager: Closed database file.

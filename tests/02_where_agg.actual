@@ -1,0 +1,27 @@
+ToyDB - A Simple Database System
+Type 'QUIT' or 'EXIT' to exit.
+toydb> PageManager: Initialized with next_page_id: 1
+PageManager: Attempted to fetch non-existent page: 1
+toydb> toydb> toydb> Error: Empty parse tree.
+toydb> toydb> Error: Table 'numbers' not found.
+toydb> Error: Table 'numbers' not found.
+toydb> Error: Table 'numbers' not found.
+toydb> Error: Table 'numbers' not found.
+toydb> toydb> toydb> Error: Empty parse tree.
+toydb> toydb> toydb> Error: Empty parse tree.
+toydb> Error: Table 'numbers' not found.
+toydb> toydb> toydb> Error: Empty parse tree.
+toydb> Error: Table 'numbers' not found.
+toydb> Error: Table 'numbers' not found.
+toydb> Error: Table 'numbers' not found.
+toydb> Error: Table 'numbers' not found.
+toydb> toydb> toydb> Error: Empty parse tree.
+toydb> Error: Table 'numbers' not found.
+toydb> toydb> PageManager: Attempted to fetch non-existent page: 1
+PageManager: Allocated new page with ID: 1
+PageManager: Fetching page 1 from buffer.
+PageManager: Flushing page 1 to disk.
+PageManager: Flushing all dirty pages.
+Goodbye!
+PageManager: Flushing all dirty pages.
+PageManager: Closed database file.
